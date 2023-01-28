@@ -72,3 +72,17 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+## ---------------- ##
+##   WWise stuff    ##
+## ---------------- ##
+
+# Wwise Project
+Plugins/Wwise/IncrementalSoundBankData.xml
+Plugins/Wwise/.cache/
+Plugins/Wwise/.backup/
+Plugins/Wwise/*.akd
+Plugins/Wwise/*.akpk
+Plugins/Wwise/*.prof
+Plugins/Wwise/*.validationcache
+Plugins/Wwise/*.wsettings
