@@ -77,12 +77,12 @@ DerivedDataCache/*
 ##   WWise stuff    ##
 ## ---------------- ##
 
-# Wwise Project
-Plugins/Wwise/IncrementalSoundBankData.xml
-Plugins/Wwise/.cache/
-Plugins/Wwise/.backup/
-Plugins/Wwise/*.akd
-Plugins/Wwise/*.akpk
-Plugins/Wwise/*.prof
-Plugins/Wwise/*.validationcache
-Plugins/Wwise/*.wsettings
+
+GGJ2023_WwiseProject/IncrementalSoundBankData.xml
+GGJ2023_WwiseProject/.cache/
+GGJ2023_WwiseProject/.backup/
+GGJ2023_WwiseProject/*.akd
+GGJ2023_WwiseProject/*.akpk
+GGJ2023_WwiseProject/*.prof
+GGJ2023_WwiseProject/*.validationcache
+GGJ2023_WwiseProject/*.wsettings
