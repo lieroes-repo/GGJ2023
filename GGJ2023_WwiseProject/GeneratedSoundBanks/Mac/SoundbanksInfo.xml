@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{1AD5F74F-AD5C-4430-80CF-FE809F87E8C3}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{641DF95F-5F04-4B5D-BC16-9C9C0F51A88A}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="2954482177" Type="User" GUID="{8C79C7A8-A285-4709-9574-ED5A48612D72}" Language="SFX" Hash="{B32C698C-4134-687D-52D4-27BD0B70043B}">
+			<ObjectPath>\SoundBanks\Default Work Unit\InitBank</ObjectPath>
+			<ShortName>InitBank</ShortName>
+			<Path>InitBank.bnk</Path>
+			<Media>
+				<File Id="193591052" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>background.wav</ShortName>
+					<CachePath>SFX/background_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3650723969" Name="Background" ObjectPath="\Events\Default Work Unit\Background" GUID="{7AECD7D3-0FB4-40E8-AE08-4CA66FC084BD}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="193591052"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{737AE3A2-57CC-4E14-15A6-D9E9F6229552}</FileHash>
+</SoundBanksInfo>

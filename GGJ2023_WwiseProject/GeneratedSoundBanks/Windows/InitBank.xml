@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="2954482177" Type="User" GUID="{8C79C7A8-A285-4709-9574-ED5A48612D72}" Language="SFX" Hash="{B32C698C-4134-687D-52D4-27BD0B70043B}">
+			<ObjectPath>\SoundBanks\Default Work Unit\InitBank</ObjectPath>
+			<ShortName>InitBank</ShortName>
+			<Path>InitBank.bnk</Path>
+			<Media>
+				<File Id="193591052" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>background.wav</ShortName>
+					<CachePath>SFX/background_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3650723969" Name="Background" ObjectPath="\Events\Default Work Unit\Background" GUID="{7AECD7D3-0FB4-40E8-AE08-4CA66FC084BD}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="193591052"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{9539AF1E-ACDE-81FE-E5F4-E06A082B5B78}</FileHash>
+</SoundBanksInfo>

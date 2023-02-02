@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3650723969	background			\Default Work Unit\background	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	193591052	background	D:\Unreal Projects\GGJ2023\GGJ2023_WwiseProject\.cache\Mac\SFX\background_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\background		16266692
+

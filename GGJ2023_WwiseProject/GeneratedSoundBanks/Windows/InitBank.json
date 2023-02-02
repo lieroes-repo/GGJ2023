@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2954482177",
+    "Type": "User",
+    "GUID": "{8C79C7A8-A285-4709-9574-ED5A48612D72}",
+    "Language": "SFX",
+    "Hash": "{B32C698C-4134-687D-52D4-27BD0B70043B}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\InitBank",
+    "ShortName": "InitBank",
+    "Path": "InitBank.bnk",
+    "Media": [
+     {
+      "Id": "193591052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "background.wav",
+      "CachePath": "SFX/background_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3650723969",
+      "Name": "Background",
+      "ObjectPath": "\\Events\\Default Work Unit\\Background",
+      "GUID": "{7AECD7D3-0FB4-40E8-AE08-4CA66FC084BD}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "193591052"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B45D3DB9-0AF4-2DFB-7D37-FAFFC8F94457}"
+ }
+}

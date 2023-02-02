@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{77448272-FE92-45CC-9922-39693615B02C}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{77448272-FE92-45CC-9922-39693615B02C}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{77448272-FE92-45CC-9922-39693615B02C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{77448272-FE92-45CC-9922-39693615B02C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="background" ID="{E089FCD1-C2F7-457E-92EC-1E7B7C060BE7}" ShortID="464349367">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B3200058-2EA1-4540-B74E-434BC5850A73}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C73F00-713B-4BCD-ABBA-5D079340AA8E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="background" ID="{E033E3FE-BF4B-4828-97C9-6CAD35890B78}">
+							<Language>SFX</Language>
+							<AudioFile>background.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="193591052"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="background" ID="{E033E3FE-BF4B-4828-97C9-6CAD35890B78}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
